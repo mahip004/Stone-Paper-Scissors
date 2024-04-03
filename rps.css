@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.panelbox{
+    height:100px;
+    color: rgb(0, 255, 132);
+    background-color: rgb(98, 23, 130);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+body{
+    background-color: rgb(55, 103, 123);
+}
+.game{
+
+    height: 150px;
+    
+    margin-left: 40%;
+   margin-top: 10%;
+    display: flex;
+    gap: 70px;
+}
+#rock{
+    height: 100px;
+    width:100px;
+    background-image: url(rock1.jpg);
+    
+    border-radius: 50%;
+    background-size: contain;
+
+}
+#paper{
+    height: 100px;
+    width:100px;
+    background-image: url(paper.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    background-size: cover;
+    
+    
+
+}
+#scissors{
+    height: 100px;
+    width:100px;
+    background-image: url(scissor.jpg);
+    
+    border-radius: 50%;
+    background-size: contain;
+}
+ .choice:hover{
+    border-width: 5px;
+    border-color: black;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msg-container{
+    
+    height: 50px;
+    width:700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+#msg{
+color: blue;
+background-color: orange;
+font-size: 30px;
+
+}
